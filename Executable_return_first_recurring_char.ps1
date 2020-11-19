@@ -1,4 +1,4 @@
-funtion get-firstrecurringcharacter {
+function get-firstrecurringcharacter {
 [CmdletBinding()]
 param(
 [string] $foo
