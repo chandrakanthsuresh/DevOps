@@ -1,1 +1,2 @@
 
+Navigate to directory and 
