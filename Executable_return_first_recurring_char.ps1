@@ -8,7 +8,7 @@ $charar = $foo.ToCharArray()
 $tempchar = [char[]]::new($charar.count)
 $charar | ForEach{
 if($tempchar.contains($_)){
-Write-Host "FIrst recurring character is $_"
+Write-Host "First recurring character is $_"
 break
 }
 else{
