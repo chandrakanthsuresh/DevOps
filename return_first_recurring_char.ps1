@@ -6,13 +6,14 @@ $charar = $foo.ToCharArray()
 $tempchar = [char[]]::new($charar.count)
 $charar | ForEach{
 if($tempchar.contains($_)){
-Write-Host "First recurring charecter is $_"
+Write-Host "First recurring character is $_"
 break
 }
 else{
 $tempchar += $_
 }
 }
+Write-Host "No Recurring character found"
 exit 0
 }
 catch{
